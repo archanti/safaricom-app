@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
 
   # define the variales
   # provide the following details, this part is found on your test credentials on the developer account
-  $BusinessShortCode = '9530679';
+  $BusinessShortCode = '7646962';
   $Passkey = 'B/q1wghyVpMWSUZZVsuiY/N4Yr9yj0m2jtyl136nqjUfyxADYdLnieY8y5s4SznEb4YbE+LTmHVHv13hqp4M5BIr0PWJcxm8EGUNTuVt2lk0C5ZjzNnQ019wX8BTq2wH2FYOWKDnz8zYASumxmyNq2vIL8YkMOwaMwMut0M3g5tufMYy4Jy0JyyGbCwgnC7/7nL59U74U9Sc5sCAxva6okty9D+Qs1r7LHe76q3AG+yuw6O60IU00ddL5GgQBdsman/Ea9cvNwdM14rKYce3nWbDBEgHZtbJM9brx2pPljjeDGye5xJJaNCs/+BK9uS8rZLEStMSlzcNAw4azmpekw==';  
   
   /*
@@ -24,7 +24,7 @@ if(isset($_POST['submit'])){
   */
   
    $PartyA = $_POST['254703538027']; // This is your phone number, 
-  $AccountReference = '9530679';
+  $AccountReference = '7646962';
   $TransactionDesc = 'Test Payment';
   $Amount = $_POST['amount'];;
  
