@@ -5,13 +5,13 @@ if(isset($_POST['submit'])){
   date_default_timezone_set('Africa/Nairobi');
 
   # access token
-  $consumerKey = 'nk16Y74eSbTaGQgc9WF8j6FigApqOMWr'; //Fill with your app Consumer Key
-  $consumerSecret = '40fD1vRXCq90XFaU'; // Fill with your app Secret
+  $consumerKey = 'DoTUjyOTLN9vmA3BAXqlgQrJPtLDl2Hk'; //Fill with your app Consumer Key
+  $consumerSecret = 'DfLCnzAEKJDFPBDB'; // Fill with your app Secret
 
   # define the variales
   # provide the following details, this part is found on your test credentials on the developer account
-  $BusinessShortCode = '174379';
-  $Passkey = 'bfb279f9aa9bdbcf158e97dd71a467cd2e0c893059b10f78e6b72ada1ed2c919';  
+  $BusinessShortCode = '9530679';
+  $Passkey = 'B/q1wghyVpMWSUZZVsuiY/N4Yr9yj0m2jtyl136nqjUfyxADYdLnieY8y5s4SznEb4YbE+LTmHVHv13hqp4M5BIr0PWJcxm8EGUNTuVt2lk0C5ZjzNnQ019wX8BTq2wH2FYOWKDnz8zYASumxmyNq2vIL8YkMOwaMwMut0M3g5tufMYy4Jy0JyyGbCwgnC7/7nL59U74U9Sc5sCAxva6okty9D+Qs1r7LHe76q3AG+yuw6O60IU00ddL5GgQBdsman/Ea9cvNwdM14rKYce3nWbDBEgHZtbJM9brx2pPljjeDGye5xJJaNCs/+BK9uS8rZLEStMSlzcNAw4azmpekw==';  
   
   /*
     This are your info, for
@@ -23,8 +23,8 @@ if(isset($_POST['submit'])){
     for developer/test accounts, this money will be reversed automatically by midnight.
   */
   
-   $PartyA = $_POST['phone']; // This is your phone number, 
-  $AccountReference = '2255';
+   $PartyA = $_POST['254703538027']; // This is your phone number, 
+  $AccountReference = '9530679';
   $TransactionDesc = 'Test Payment';
   $Amount = $_POST['amount'];;
  
